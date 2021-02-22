@@ -19,19 +19,19 @@ export default function Homepage() {
         {
             imgSrc: FeatureTitle01,
             imgAlt: "Feature tile icon 01",
-            tittle: "Join BWA",
+            title: "Join BWA",
             description: "A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design."
         },
         {
             imgSrc: FeatureTitle02,
             imgAlt: "Feature tile icon 02",
-            tittle: "Join BWA",
+            title: "Join BWA",
             description: "A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design."
         },
         {
             imgSrc: FeatureTitle03,
             imgAlt: "Feature tile icon 03",
-            tittle: "Join BWA",
+            title: "Join BWA",
             description: "A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design."
         }
     ];
@@ -67,7 +67,7 @@ export default function Homepage() {
 						<div className="tiles-wrap">
                             {features.map((features, index) => ( <Feature 
                                 key={index}
-                                delayInMS={index = 500}
+                                delayInMS={index = 100}
                                 data={features}>
                                </Feature>))}
                             
