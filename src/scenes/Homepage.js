@@ -75,6 +75,26 @@ export default function Homepage() {
                     </div>
                 </div>
             </Section>
+            <Section className="pricing">
+                <div className="container">
+				    <div className="pricing-inner section-inner has-top-divider">
+					    <div className="section-header center-content">
+								<div className="container-xs">
+								    <h2 className="mt-0 mb-16">
+									Simple, transarent pricing
+								    </h2>
+								    <p className="m-0">
+									Lorem ipsum is common placeholder text
+									used to demonstrate the graphic elements
+									of a document or visual presentation.
+							        </p>
+						    </div>
+						</div>
+							<div className="tiles-wrap">
+                            </div>
+                    </div>
+                </div>
+            </Section>
         </main>
     </div>
     );
